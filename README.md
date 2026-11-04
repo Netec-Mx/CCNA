@@ -1,107 +1,116 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Netec-Mx/261103-CCNA/main/assets/LogoNetec.png" alt="NETEC" width="180" />
-</p>
+<a href="https://netec.com">
+  <img src="https://static.wixstatic.com/media/96edd2_934dddb3230b4b16b1d1c56c51143738~mv2.png" alt="Logo de Netec" width="300"/>
+</a>
 
 # Implementación y administración de soluciones Cisco (CCNA)
 
-La ruta de aprendizaje Implementación y administración de soluciones Cisco (CCNA) enseña cómo instalar, operar, configurar y verificar una red básica IPv4 e IPv6, configurar componentes de red como switches, routers y controladores de redes de área local inalámbricas (WLAN), administrar dispositivos de red e identificar amenazas básicas de seguridad. Esta ruta de aprendizaje también aborda la introducción de la inteligencia artificial (IA) y el aprendizaje automático (ML) en las operaciones de red. Prepara para el examen Cisco Certified Network Associate (200-301 CCNA) v1.1; al aprobarlo, se obtiene la certificación CCNA.
+## Plataforma de laboratorios
 
-## Accesos rápidos
+Te damos la bienvenida a la plataforma de laboratorios del curso Implementación y administración de soluciones Cisco (CCNA).
 
-- [**Setup Guide del curso**](https://github.com/Netec-Mx/261103-CCNA/blob/main/SETUP_GUIDE.md)
-- [Laboratorios por capítulo](#lista-de-laboratorios)
+Mediante prácticas guiadas en Cisco Packet Tracer, configurarás y verificarás redes IPv4 e IPv6, switches, routers, VLAN, protocolos de enrutamiento y controles básicos de seguridad. También aplicarás procedimientos de diagnóstico para identificar y corregir problemas de conectividad.
 
-## Estructura
 
-- `SETUP_GUIDE.md`: guía de instalación y preparación del entorno.
-- `CapituloXX/README.md`: guía de laboratorio por capítulo.
 
 ## Lista de laboratorios
 
-### Capítulo 1
+Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
-- [3. Práctica 1. Operación del software Cisco IOS](Capitulo01/README.md#3-práctica-1-operación-del-software-cisco-ios)
-  - Descripción: En Cisco Packet Tracer, el participante accede a un dispositivo Cisco por consola, identifica y navega entre los modos EXEC de usuario, EXEC privilegiado y configuración global, utiliza la ayuda contextual y el historial de comandos, consulta información del dispositivo con comandos show y guarda la configuración en ejecución en la configuración de inicio.
-  - Duración estimada: 60 min
-  - [Ver capítulo completo](Capitulo01/README.md)
+### Capítulo 1. Fundamentos de redes
 
-### Capítulo 2
+#### [Práctica 1. Operación del software Cisco IOS](Capitulo01/README.md#3-práctica-1-operación-del-software-cisco-ios)
 
-- [2. Práctica 2. Exploración de la capa de enlace TCP/IP e inicialización de un switch](Capitulo02/README.md#2-práctica-2-exploración-de-la-capa-de-enlace-tcpip-e-inicialización-de-un-switch)
-  - Descripción: En Cisco Packet Tracer, el participante inicia un switch Cisco, asigna nombre de host, dirección IP de administración y puerta de enlace predeterminada, revisa el estado, la velocidad y el modo dúplex de las interfaces, y genera tráfico entre hosts para observar cómo el switch aprende direcciones MAC y reenvía tramas Ethernet.
-  - Duración estimada: 80 min
-  - [Ver capítulo completo](Capitulo02/README.md)
+- Descripción: Acceder por consola a un dispositivo Cisco, navegar entre los modos de Cisco IOS, utilizar la ayuda contextual y consultar información con comandos show. Guardar la configuración para conservarla después de un reinicio.
+- ⏱️ Duración estimada: 60 min.
 
-### Capítulo 3
+### Capítulo 2. Acceso a la red
 
-- [1. Práctica 3. Introducción a la capa de Internet de TCP/IP, el direccionamiento IPv4 y las subredes](Capitulo03/README.md#1-práctica-3-introducción-a-la-capa-de-internet-de-tcpip-el-direccionamiento-ipv4-y-las-subredes)
-  - Descripción: En Cisco Packet Tracer, el participante calcula subredes IPv4 a partir de un bloque de direcciones dado, determina para cada subred la dirección de red, la máscara, el rango de hosts válidos y la dirección de difusión, asigna las direcciones a hosts e interfaces de la topología y verifica la configuración y la conectividad con ipconfig y ping.
-  - Duración estimada: 40 min
-- [2. Práctica 4. Explicación de las capas de transporte y aplicación de TCP/IP](Capitulo03/README.md#2-práctica-4-explicación-de-las-capas-de-transporte-y-aplicación-de-tcpip)
-  - Descripción: En el modo de simulación de Cisco Packet Tracer, el participante genera tráfico de servicios como HTTP, DNS y DHCP entre clientes y servidores, observa el establecimiento de sesiones TCP y el intercambio UDP, e identifica los números de puerto, encabezados y el encapsulamiento de cada capa del modelo TCP/IP.
-  - Duración estimada: 30 min
-- [3. Práctica 5. Configuración de un router Cisco](Capitulo03/README.md#3-práctica-5-configuración-de-un-router-cisco)
-  - Descripción: En Cisco Packet Tracer, el participante configura el nombre de host, las contraseñas básicas y las direcciones IPv4 de las interfaces de un router Cisco, habilita las interfaces, utiliza CDP para descubrir dispositivos vecinos y verifica la tabla de enrutamiento y la conectividad entre hosts de distintas subredes mediante ping.
-  - Duración estimada: 35 min
-- [4. Práctica 6. Introducción a IPv6 básico](Capitulo03/README.md#4-práctica-6-introducción-a-ipv6-básico)
-  - Descripción: En Cisco Packet Tracer, el participante habilita el enrutamiento unicast IPv6 en un router, asigna direcciones IPv6 globales y de enlace local a las interfaces, configura los hosts mediante asignación estática o SLAAC y verifica la conectividad IPv6 con los comandos show ipv6 interface, show ipv6 route y ping.
-  - Duración estimada: 30 min
-  - [Ver capítulo completo](Capitulo03/README.md)
+#### [Práctica 2. Exploración de la capa de enlace TCP/IP e inicialización de un switch](Capitulo02/README.md#2-práctica-2-exploración-de-la-capa-de-enlace-tcpip-e-inicialización-de-un-switch)
 
-### Capítulo 4
+- Descripción: Configurar los parámetros iniciales de un switch, su dirección de administración y su puerta de enlace. Revisar las interfaces y observar el aprendizaje de direcciones MAC mediante tráfico entre hosts.
+- ⏱️ Duración estimada: 80 min.
 
-- [1. Práctica 7. Implementación de VLAN, enlaces troncales y enrutamiento entre VLAN](Capitulo04/README.md#1-práctica-7-implementación-de-vlan-enlaces-troncales-y-enrutamiento-entre-vlan)
-  - Descripción: En Cisco Packet Tracer, el participante crea VLAN en los switches, asigna puertos de acceso, configura enlaces troncales 802.1Q entre switches y habilita el enrutamiento entre VLAN mediante subinterfaces en un router (router-on-a-stick), verificando la segmentación y la conectividad entre hosts de distintas VLAN.
-  - Duración estimada: 45 min
-- [3. Práctica 8. Mejora de topologías conmutadas redundantes con EtherChannel](Capitulo04/README.md#3-práctica-8-mejora-de-topologías-conmutadas-redundantes-con-etherchannel)
-  - Descripción: En Cisco Packet Tracer, el participante observa el efecto de STP sobre los enlaces redundantes entre switches, agrupa varios enlaces físicos en un EtherChannel mediante LACP, configura el canal como enlace troncal y verifica su estado y su tolerancia a fallas con los comandos show etherchannel summary y show spanning-tree.
-  - Duración estimada: 35 min
-  - [Ver capítulo completo](Capitulo04/README.md)
+### Capítulo 3. Direccionamiento IP
 
-### Capítulo 5
+#### [Práctica 3. Introducción a la capa de Internet de TCP/IP, el direccionamiento IPv4 y las subredes](Capitulo03/README.md#1-práctica-3-introducción-a-la-capa-de-internet-de-tcpip-el-direccionamiento-ipv4-y-las-subredes)
 
-- [3. Práctica 9. Resolución de problemas de una red sencilla](Capitulo05/README.md#3-práctica-9-resolución-de-problemas-de-una-red-sencilla)
-  - Descripción: En Cisco Packet Tracer, el participante recibe una topología con fallas preconfiguradas, aplica un método de resolución de problemas por capas, utiliza ping, traceroute y comandos show para aislar problemas de cableado, interfaces, direccionamiento IP y puerta de enlace predeterminada, corrige la configuración y documenta la causa raíz de cada falla.
-  - Duración estimada: 50 min
-  - [Ver capítulo completo](Capitulo05/README.md)
+- Descripción: Calcular subredes IPv4, identificar direcciones de red, rangos de hosts y direcciones de difusión. Aplicar el direccionamiento en la topología y comprobar la conectividad.
+- ⏱️ Duración estimada: 40 min.
 
-### Capítulo 6
+#### [Práctica 4. Explicación de las capas de transporte y aplicación de TCP/IP](Capitulo03/README.md#2-práctica-4-explicación-de-las-capas-de-transporte-y-aplicación-de-tcpip)
 
-- [1. Práctica 10. Configuración del enrutamiento estático](Capitulo06/README.md#1-práctica-10-configuración-del-enrutamiento-estático)
-  - Descripción: En Cisco Packet Tracer, el participante configura rutas estáticas IPv4 e IPv6 hacia redes remotas, una ruta predeterminada y una ruta estática flotante de respaldo, y verifica la tabla de enrutamiento, la selección de rutas y la conectividad extremo a extremo entre las distintas redes de la topología.
-  - Duración estimada: 45 min
-- [2. Práctica 11. Introducción a OSPF](Capitulo06/README.md#2-práctica-11-introducción-a-ospf)
-  - Descripción: En Cisco Packet Tracer, el participante habilita OSPF de área única en varios routers, anuncia las redes conectadas, define el ID de router e interfaces pasivas, y verifica la formación de adyacencias, la base de datos de vecinos y las rutas aprendidas con los comandos show ip ospf neighbor, show ip ospf interface y show ip route.
-  - Duración estimada: 55 min
-  - [Ver capítulo completo](Capitulo06/README.md)
+- Descripción: Generar tráfico HTTP, DNS y DHCP en el modo de simulación de Packet Tracer. Observar el funcionamiento de TCP y UDP e identificar puertos, encabezados y encapsulamiento.
+- ⏱️ Duración estimada: 30 min.
 
-### Capítulo 7
+#### [Práctica 5. Configuración de un router Cisco](Capitulo03/README.md#3-práctica-5-configuración-de-un-router-cisco)
 
-- [1. Práctica 12. Explicación de los fundamentos de las ACL](Capitulo07/README.md#1-práctica-12-explicación-de-los-fundamentos-de-las-acl)
-  - Descripción: En Cisco Packet Tracer, el participante crea ACL IPv4 estándar y extendidas, numeradas y nombradas, utilizando máscaras wildcard, las aplica en la interfaz y dirección adecuadas, restringe el acceso a las líneas VTY y comprueba el filtrado mediante pruebas de conectividad y los contadores del comando show access-lists.
-  - Duración estimada: 70 min
-  - [Ver capítulo completo](Capitulo07/README.md)
+- Descripción: Configurar el nombre del router, contraseñas e interfaces IPv4. Descubrir vecinos mediante CDP y verificar las rutas conectadas y la comunicación entre subredes.
+- ⏱️ Duración estimada: 35 min.
 
-### Capítulo 8
+#### [Práctica 6. Introducción a IPv6 básico](Capitulo03/README.md#4-práctica-6-introducción-a-ipv6-básico)
 
-- [1. Práctica 13. Protección del acceso administrativo e implementación del endurecimiento (hardening) de dispositivos](Capitulo08/README.md#1-práctica-13-protección-del-acceso-administrativo-e-implementación-del-endurecimiento-hardening-de-dispositivos)
-  - Descripción: En Cisco Packet Tracer, el participante configura contraseñas cifradas y enable secret, cuentas de usuario locales, acceso remoto seguro mediante SSH, banners de inicio de sesión, port security en los puertos de acceso del switch y la deshabilitación de servicios y puertos no utilizados, verificando que solo el acceso autorizado sea permitido.
-  - Duración estimada: 60 min
-  - [Ver capítulo completo](Capitulo08/README.md)
+- Descripción: Habilitar el enrutamiento IPv6, asignar direcciones a interfaces y hosts y comprobar la conectividad mediante comandos de verificación y pruebas de ping.
+- ⏱️ Duración estimada: 30 min.
 
-### Capítulo 9
+### Capítulo 4. Protocolos y tecnologías de capa 2
 
-- [2. Práctica 14. Habilitación de la conectividad a Internet](Capitulo09/README.md#2-práctica-14-habilitación-de-la-conectividad-a-internet)
-  - Descripción: En Cisco Packet Tracer, el participante configura la interfaz del router de borde hacia el proveedor de servicios, una ruta predeterminada, un servidor DHCP para los hosts internos y NAT estático y PAT para la traducción de direcciones privadas, verificando el acceso a servidores externos y las traducciones activas con show ip nat translations.
-  - Duración estimada: 70 min
-  - [Ver capítulo completo](Capitulo09/README.md)
+#### [Práctica 7. Implementación de VLAN, enlaces troncales y enrutamiento entre VLAN](Capitulo04/README.md#1-práctica-7-implementación-de-vlan-enlaces-troncales-y-enrutamiento-entre-vlan)
 
-## Flujo de colaboración
+- Descripción: Crear VLAN, asignar puertos de acceso y configurar enlaces troncales 802.1Q. Implementar enrutamiento entre VLAN mediante subinterfaces y verificar la conectividad.
+- ⏱️ Duración estimada: 45 min.
 
-- Trabajar en `changes_course`.
-- Crear Pull Request hacia `main`.
-- Merge por `Squash and merge`.
+#### [Práctica 8. Mejora de topologías conmutadas redundantes con EtherChannel](Capitulo04/README.md#3-práctica-8-mejora-de-topologías-conmutadas-redundantes-con-etherchannel)
+
+- Descripción: Observar el comportamiento de STP y agrupar enlaces físicos mediante EtherChannel con LACP. Comprobar el estado del canal y su funcionamiento ante una falla de enlace.
+- ⏱️ Duración estimada: 35 min.
+
+### Capítulo 5. Conceptos de enrutamiento
+
+#### [Práctica 9. Resolución de problemas de una red sencilla](Capitulo05/README.md#3-práctica-9-resolución-de-problemas-de-una-red-sencilla)
+
+- Descripción: Diagnosticar una topología con fallas de conectividad mediante una metodología por capas. Utilizar ping, traceroute y comandos show para corregir problemas y documentar sus causas.
+- ⏱️ Duración estimada: 50 min.
+
+### Capítulo 6. Protocolos de capa 3
+
+#### [Práctica 10. Configuración del enrutamiento estático](Capitulo06/README.md#1-práctica-10-configuración-del-enrutamiento-estático)
+
+- Descripción: Configurar rutas estáticas IPv4 e IPv6, una ruta predeterminada y una ruta flotante de respaldo. Verificar la selección de rutas y la conectividad entre redes remotas.
+- ⏱️ Duración estimada: 45 min.
+
+#### [Práctica 11. Introducción a OSPF](Capitulo06/README.md#2-práctica-11-introducción-a-ospf)
+
+- Descripción: Implementar OSPFv2 de área única, anunciar redes y configurar identificadores de router e interfaces pasivas. Comprobar las adyacencias y las rutas aprendidas.
+- ⏱️ Duración estimada: 55 min.
+
+### Capítulo 7. Fundamentos de seguridad de red
+
+#### [Práctica 12. Explicación de los fundamentos de las ACL](Capitulo07/README.md#1-práctica-12-explicación-de-los-fundamentos-de-las-acl)
+
+- Descripción: Crear y aplicar ACL IPv4 estándar y extendidas para controlar el tráfico y restringir el acceso administrativo. Verificar el filtrado mediante pruebas y contadores de coincidencias.
+- ⏱️ Duración estimada: 70 min.
+
+### Capítulo 8. Seguridad de dispositivos
+
+#### [Práctica 13. Protección del acceso administrativo e implementación del endurecimiento (hardening) de dispositivos](Capitulo08/README.md#1-práctica-13-protección-del-acceso-administrativo-e-implementación-del-endurecimiento-hardening-de-dispositivos)
+
+- Descripción: Proteger el acceso a routers y switches mediante usuarios locales, contraseñas y SSH. Configurar port security y deshabilitar servicios y puertos no utilizados.
+- ⏱️ Duración estimada: 60 min.
+
+### Capítulo 9. WAN
+
+#### [Práctica 14. Habilitación de la conectividad a Internet](Capitulo09/README.md#2-práctica-14-habilitación-de-la-conectividad-a-internet)
+
+- Descripción: Configurar la conexión del router de borde, una ruta predeterminada, DHCP, NAT estático y PAT. Comprobar el acceso a servidores externos y las traducciones de direcciones.
+- ⏱️ Duración estimada: 70 min.
 
 ---
 
-*Material didáctico preparado por Global K, S.A. de C.V.*
+
+## 📬 Contacto y más información
+
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). También puedes encontrar más recursos en nuestra [página](https://netec.com).
+
+---
+
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
