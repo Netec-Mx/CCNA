@@ -22,7 +22,7 @@ Al finalizar la práctica, el participante podrá:
 - [ ] Determinar dirección de red, máscara, rango de hosts válidos y dirección de difusión de cada subred.
 - [ ] Asignar direcciones IPv4 válidas a PCs, interfaces de router y SVIs de administración sin usar direcciones de red ni de difusión.
 - [ ] Configurar las interfaces LAN de un router Cisco y verificar su estado mediante `show ip interface brief`.
-- [ ] Comprobar conectividad local y entre subredes mediante `ipconfig`, `ping` e निरीcción de eventos ICMP en modo de simulación.
+- [ ] Comprobar conectividad local y entre subredes mediante `ipconfig`, `ping` verificacción de eventos ICMP en modo de simulación.
 
 ## Prerrequisitos
 
