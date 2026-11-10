@@ -54,6 +54,9 @@ La práctica utiliza una topología mínima formada por una PC y un switch Cisco
 
 La PC-A y S1 se conectan mediante el cable **Console** de color azul claro. Esta conexión permite administrar el switch localmente, incluso si todavía no existen direcciones IP, VLAN de administración ni enlaces Ethernet activos.
 
+<img width="1327" height="777" alt="Lab 1 Topo 2 img 1" src="https://github.com/user-attachments/assets/003711d1-a94c-482b-a549-abbee09837ef" />
+
+
 ### Software y archivos
 
 | Elemento | Valor |
@@ -107,6 +110,9 @@ La PC-A y S1 se conectan mediante el cable **Console** de color azul claro. Esta
 
 **Resultado esperado:** La topología contiene únicamente PC-A y S1, sin conexión entre ellos todavía.
 
+<img width="714" height="306" alt="Lab 1 Paso2 img 1" src="https://github.com/user-attachments/assets/9a47c03e-f595-451b-a822-31441bf03c3b" />
+
+
 **Verificación:** S1 representa un dispositivo intermedio que administrará conexiones de una LAN; PC-A representa un dispositivo final usado en esta práctica como estación de administración.
 
 ---
@@ -125,6 +131,9 @@ La PC-A y S1 se conectan mediante el cable **Console** de color azul claro. Esta
 
 **Resultado esperado:** Se muestra un cable azul claro entre `PC-A RS 232` y `S1 Console`.
 
+<img width="714" height="306" alt="Lab 1 Paso3 img 1" src="https://github.com/user-attachments/assets/4642b289-1760-4620-a25e-d529506080f5" />
+
+
 **Verificación:** La conexión no utiliza puertos FastEthernet o GigabitEthernet. La consola es un canal de administración local, no una conexión de datos de usuarios.
 
 ---
@@ -142,6 +151,9 @@ La PC-A y S1 se conectan mediante el cable **Console** de color azul claro. Esta
 5. Presione `Enter` una o dos veces si no aparece un indicador de IOS.
 
 **Resultado esperado:** Aparece el indicador User EXEC:
+
+<img width="1828" height="819" alt="Lab 1 Paso4 img 1" src="https://github.com/user-attachments/assets/b894d0e8-a0c0-4889-8d35-1cb5441871d1" />
+
 
 ```text
 Switch>
