@@ -59,6 +59,7 @@ PC-A -------- Fa0/1
 PC-B -------- Fa0/2       S1
 PC-C -------- Fa0/3
 ```
+<img width="1510" height="816" alt="Lab 2 Topologia img 1" src="https://github.com/user-attachments/assets/47b9ef5c-ae58-4a33-b2eb-e07d51af0781" />
 
 Utilice cables **Copper Straight-Through** entre cada PC y el switch. En Packet Tracer también puede usar la opción de conexión automática si el instructor lo permite; confirme posteriormente los puertos utilizados.
 
@@ -133,6 +134,8 @@ En Linux compatible:
 
 **Resultado esperado:** Los tres enlaces físicos están activos.
 
+<img width="860" height="506" alt="Lab 2 Paso3 img 1" src="https://github.com/user-attachments/assets/ab933002-1ff6-48df-9981-a0cae05e3144" />
+
 **Verificación:** Los extremos de los enlaces deben mostrar indicadores verdes. Si permanecen en rojo o ámbar por un tiempo prolongado, revise el cable y los puertos seleccionados.
 
 ---
@@ -149,6 +152,8 @@ En Linux compatible:
 4. Cierre la ventana de configuración.
 
 **Resultado esperado:** PC-A tiene dirección `192.168.1.10/24`.
+
+<img width="1732" height="824" alt="Lab 2 Paso4 img 1" src="https://github.com/user-attachments/assets/b2e813c3-a395-4d07-bf12-969880d04bb4" />
 
 **Verificación:** En la ventana **IP Configuration**, confirme los siguientes valores:
 
@@ -174,6 +179,8 @@ Default Gateway: [vacío]
 **Resultado esperado:** Los tres PCs pertenecen a la red IPv4 `192.168.1.0/24`.
 
 **Verificación:** Revise que no existan direcciones duplicadas y que todos utilicen la máscara `/24`.
+
+<img width="994" height="597" alt="Lab 2 Paso5 img 1" src="https://github.com/user-attachments/assets/5dcfc5fd-467c-4e98-b299-819a9172b22d" />
 
 ---
 
