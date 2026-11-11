@@ -181,6 +181,9 @@ El bloque base es `192.168.10.0/24`. Se necesitan cuatro subredes iguales.
 
 **Resultado esperado:** La topología contiene dos LAN conectadas a interfaces distintas del router `R1`.
 
+<img width="1156" height="631" alt="Lab 3 Paso3 img 1" src="https://github.com/user-attachments/assets/30f4a3f7-082b-4a43-bc40-cd330ef34a65" />
+
+
 **Verificación:** Los cinco enlaces definidos deben aparecer conectados. Los puertos del switch pueden mostrarse inicialmente en ámbar mientras converge Spanning Tree; espere hasta que estén operativos.
 
 ---
@@ -775,6 +778,9 @@ ls -l ~/CCNA/Batch01/03-00-01_ipv4_subnetting.pkt
 6. Espere a que el indicador del enlace se muestre activo.
 
 **Resultado esperado:** `Server0` está conectado a `S1` y el enlace físico se encuentra activo.
+
+<img width="1010" height="576" alt="Lab 4 Paso2 img 1" src="https://github.com/user-attachments/assets/21b6eb27-0ff9-4616-84f4-4adfe144582d" />
+
 
 **Verificación:** Revise visualmente que los indicadores del enlace entre `S1` y `Server0` estén en verde.
 
