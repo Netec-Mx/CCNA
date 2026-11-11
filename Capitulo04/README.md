@@ -132,6 +132,9 @@ Guarde el archivo inicial de esta práctica como:
 
 **Resultado esperado:** El área de trabajo contiene siete dispositivos identificados y el archivo se encuentra guardado en el directorio de la tanda.
 
+<img width="1010" height="576" alt="Lab 7 Paso2 img 1" src="https://github.com/user-attachments/assets/4000cb34-d817-46d6-841a-a138b988c13f" />
+
+
 **Verificación:** Compruebe que la barra de título de Packet Tracer muestra `04-00-01_vlan_trunk_router_on_a_stick.pkt`.
 
 ### Paso 2: Cablear la topología conmutada y redundante
@@ -148,6 +151,9 @@ Guarde el archivo inicial de esta práctica como:
 6. Identifique que los dos enlaces entre switches serán documentados como candidatos para EtherChannel en una práctica posterior; no configure todavía `channel-group`.
 
 **Resultado esperado:** Todos los enlaces físicos están conectados. Inicialmente, los puertos de PC muestran enlace activo y los enlaces entre switches pueden requerir convergencia.
+
+<img width="1010" height="576" alt="Lab 47 Topo img 1" src="https://github.com/user-attachments/assets/4de826fe-849d-4543-8869-fcf4582df465" />
+
 
 **Verificación:** Desde S1, ejecute el siguiente comando y observe las interfaces conectadas:
 
@@ -813,6 +819,9 @@ La lista de VLAN permitidas que se aplicará al canal es:
 6. Confirme visualmente que se conservan `R1`, `SW1`, `SW2` y los hosts existentes.
 
 **Resultado esperado:** Packet Tracer muestra una copia independiente de la topología anterior con el nombre del archivo de esta práctica.
+
+<img width="1010" height="576" alt="Lab 8 Topo img 1" src="https://github.com/user-attachments/assets/9a49c31f-19ff-4130-8234-ab40f298732b" />
+
 
 **Verificación:** Revise la barra de título de Packet Tracer y confirme que contiene `04-00-02_etherchannel_lacp.pkt`.
 
